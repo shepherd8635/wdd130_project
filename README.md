@@ -1,17 +1,29 @@
 # wdd130_project
 
-Client:
+
+## Client:
+
 Seth Ryan Shepher
+
 username: shepherd8635
 
-Team Lead:
+
+## Team Lead:
+
 Ben Wayland
+
 username: benwayland-cell
 
-Junior Dev A:
+
+## Junior Dev A:
+
 Austin Brackney
+
 username: GoldBracken
 
-Junior Dev B:
+
+## Junior Dev B:
+
 Cam Smith
+
 username: CamSmith2001
