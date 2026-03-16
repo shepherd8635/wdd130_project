@@ -1,5 +1,6 @@
 # wdd130_project
 
+[Website Link]("https://shepherd8635.github.io/shepherd8635/")
 
 ## Client:
 
@@ -24,6 +25,8 @@ username: GoldBracken
 
 ## Junior Dev B:
 
-Cam Smith
+Jacen Hoz
 
-username: CamSmith2001
+username: unknown
+
+email: unknown
