@@ -1,6 +1,7 @@
 # wdd130_project
 
-[Website Link]("https://shepherd8635.github.io/shepherd8635/")
+Website Link:
+[https://shepherd8635.github.io/shepherd8635/]("https://shepherd8635.github.io/shepherd8635/")
 
 ## Client:
 
