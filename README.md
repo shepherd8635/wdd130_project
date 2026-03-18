@@ -28,6 +28,4 @@ username: GoldBracken
 
 Jacen Hoz
 
-username: unknown
-
-email: unknown
+username: Jacen-H
