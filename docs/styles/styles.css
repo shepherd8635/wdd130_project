@@ -1,0 +1,75 @@
+/*
+This applies to all pages
+
+Color Pallete:
+
+Gradiant: #FFB833 (E5D298)
+Sunrise Orange: #E67451
+Blue: #0A9396
+Light Blue: #94D2BD
+
+*/
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*************** General ***************/
+
+body {
+    background-color: #E5D298;
+    margin: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+/*************** Navigation ***************/
+
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+}
+
+nav ul {
+    padding: 0px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: green;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+nav ul li a div {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    background-color: blue;
+}
+
+nav ul li a div:hover {
+    background-color: red;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
