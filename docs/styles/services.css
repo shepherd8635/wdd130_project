@@ -1,0 +1,16 @@
+
+
+.cleaning-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cleaning-description h2, .cleaning-description h3, .cleaning-description p {
+    grid-column: 1/-1;
+}
+
+.cleaning-description img {
+    margin: auto;
+    height: 300px;
+}

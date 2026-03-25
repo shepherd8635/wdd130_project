@@ -64,11 +64,12 @@ nav ul li a div {
     height: 100%;
     display: flex; 
     justify-content: center;
-    background-color: blue;
+    background-color: #E67451;
 }
 
 nav ul li a div:hover {
-    background-color: red;
+    background-color: #345455;
+    color: white;
 }
 
 nav ul li a{
