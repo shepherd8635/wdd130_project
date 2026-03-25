@@ -2,6 +2,10 @@ table {
     border-spacing: 20px;
 }
 
+td {
+    width: 150px;
+}
+
 .tbl-gap {
     width: 10px;
     border: solid 1px black;
