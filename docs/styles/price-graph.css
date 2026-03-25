@@ -1,5 +1,9 @@
+table {
+    border-spacing: 20px;
+}
+
 .tbl-gap {
-    width: 20px;
+    width: 10px;
     border: solid 1px black;
     border-collapse: collapse;
 }
