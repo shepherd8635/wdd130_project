@@ -5,10 +5,10 @@ This applies to all pages
 
 Color Pallete:
 
-Gradiant: #FFB833 (E5D298)
-Sunrise Orange: #E67451
-Blue: #0A9396
-Light Blue: #94D2BD
+Gradiant: #FFB833 (E5D298) #fdfdfe
+Sunrise Orange: #f79205
+Blue: #0d74b4
+Light Blue: #61bae1
 
 */
 
@@ -18,21 +18,47 @@ Light Blue: #94D2BD
 /*************** General ***************/
 
 body {
-    background-color: #E5D298;
-    margin: 50px;
+    background-color: #fdfdfe;
+    margin: 20px;
+}
+
+main {
+    background-color: #61bae1;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #0d74b4; */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p {
     font-family: Roboto;
+    background-color: #f79205;
+    padding: 20px;
 }
 
 .logo {
-    width: 80px;
+    width: 150px;
+    box-shadow: none;
+}
+
+img, p {
+    box-shadow: 10px 10px #005EB8;
 }
 
 
@@ -42,16 +68,16 @@ header {
     display: grid;
     grid-template-columns: 100px 1fr;
     align-items: center;
-    margin: 50px;
-    gap: 50px;
+    gap: 100px;
 }
 
 nav ul {
+    /* border-radius: 10px; */
     padding: 0px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background-color: green;
+    background-color: #f79205;
 
     border-style: solid;
     border-color: black;
@@ -64,15 +90,20 @@ nav ul li a div {
     height: 100%;
     display: flex; 
     justify-content: center;
-    background-color: #E67451;
 }
 
 nav ul li a div:hover {
-    background-color: #345455;
+    background-color: #61bae1;
     color: white;
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
+}
+
+nav ul li a div p {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
 }

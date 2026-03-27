@@ -1,9 +1,24 @@
 
 
+body {
+    min-width: 900px;
+}
+
+.seperator {
+    height: 10px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f79205;
+    border-radius: 10px;
+}
+
 .cleaning-description {
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    row-gap: 0;
 }
 
 .cleaning-description h2, .cleaning-description h3, .cleaning-description p {
@@ -12,5 +27,5 @@
 
 .cleaning-description img {
     margin: auto;
-    height: 300px;
+    width: 100%;
 }
