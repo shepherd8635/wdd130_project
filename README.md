@@ -1,7 +1,7 @@
 # wdd130_project
 
 Website Link:
-[https://shepherd8635.github.io/shepherd8635/]("https://shepherd8635.github.io/shepherd8635/")
+[https://shepherd8635.github.io/wdd130_project/docs/](https://shepherd8635.github.io/wdd130_project/docs/)
 
 ## Client:
 
